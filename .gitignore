@@ -1,0 +1,102 @@
+# ==========================================
+
+# .NET / C#
+
+# ==========================================
+
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/TestResults/
+**/artifacts/
+**/publish/
+**/Properties/ServiceDependencies/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+*.exe
+*.deps.json
+*.runtimeconfig.json
+
+# Keep published .NET output if required
+
+# Remove the publish ignore rule above if you want to commit publish folders.
+
+# Prefer a dedicated publish folder when committing deployment output.
+
+# ==========================================
+
+# React / Node.js / Vite
+
+# ==========================================
+
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+**/coverage/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/pnpm-debug.log*
+**/.eslintcache
+
+# ==========================================
+
+# Environment / Secrets
+
+# ==========================================
+
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.*.local.json
+**/secrets.json
+**/*.pem
+**/*.key
+**/*.pfx
+**/*.p12
+
+# ==========================================
+
+# IDE / Editor
+
+# ==========================================
+
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swn
+.DS_Store
+Thumbs.db
+
+# ==========================================
+
+# Temporary / Log files
+
+# ==========================================
+
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.old
+
+# ==========================================
+
+# Package / OS files
+
+# ==========================================
+
+.npm/
+.yarn/
+.pnpm-store/
+Desktop.ini
